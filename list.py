@@ -1,0 +1,13 @@
+list=["app","develop","mouse"]
+print(list)
+print(list[0])
+print(list[1])
+print(list[2])
+list[0]="cherry"
+print(list)
+list.append("apple")
+print(list)
+list.pop(1)
+print(list)
+list.remove(0)
+print(list)
